@@ -3,13 +3,28 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
+
+/* Begin PBXFileReference section */
+		E6C765CB242B2BB700902BB1 /* operationnode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = operationnode.h; sourceTree = "<group>"; };
+		E6C765CC242B2BB700902BB1 /* treenode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = treenode.h; sourceTree = "<group>"; };
+		E6C765CD242B2BB700902BB1 /* exceptions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = exceptions.h; sourceTree = "<group>"; };
+		E6C765CE242B2BB700902BB1 /* CMakeLists.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CMakeLists.txt; sourceTree = "<group>"; };
+		E6C765CF242B2BB700902BB1 /* expressionevaluator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = expressionevaluator.h; sourceTree = "<group>"; };
+		E6C765D0242B2BB700902BB1 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+/* End PBXFileReference section */
 
 /* Begin PBXGroup section */
 		E6C765C0242B2B7300902BB1 = {
 			isa = PBXGroup;
 			children = (
+				E6C765CE242B2BB700902BB1 /* CMakeLists.txt */,
+				E6C765CD242B2BB700902BB1 /* exceptions.h */,
+				E6C765CF242B2BB700902BB1 /* expressionevaluator.h */,
+				E6C765D0242B2BB700902BB1 /* main.cpp */,
+				E6C765CB242B2BB700902BB1 /* operationnode.h */,
+				E6C765CC242B2BB700902BB1 /* treenode.h */,
 			);
 			sourceTree = "<group>";
 		};
@@ -44,7 +59,7 @@
 				};
 			};
 			buildConfigurationList = E6C765C4242B2B7300902BB1 /* Build configuration list for PBXProject "ExpressionEvaluator" */;
-			compatibilityVersion = "Xcode 9.3";
+			compatibilityVersion = "Xcode 11.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
